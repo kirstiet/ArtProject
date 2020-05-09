@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+body {
+	background-color: #F1FAEE;
+	color: #457b9d;
+	font-family: "Jost";
+}
+
+button {
+	background-color: #F1FAEE;
+	color: #457b9d;
+	height: 30px;
+	position: fixed;
+	top: 8px;
+	font-weight: bold;
+
+}
+
+input {
+	background-color: #3B6978; 
+	color: #FFFFFF;
+	font-size: 25px;
+	height: 25px;
+}
+
+p {
+	font-size: 25px;
+}
+
+img {
+	height: 500px;
+	width: 500px;
+}
+
+b {
+	color: #E63946;
+}
