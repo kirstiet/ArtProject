@@ -23,7 +23,6 @@ window.onload = function() {
 					if(this.status == 200) {
 						let dataFromAristPage = JSON.parse(this.response);
 						artTitle.innerHTML = "<b>Title: </b>" + dataFromAristPage.body.art[0].title.display;
-						//artImage.innerHTML = "<b>Description: </b>" + dataFromAristPage.body.art[0].location.description;
 
 						console.log(artistUrl);
 						console.log(dataFromAristPage.body.art[0].location.description);
